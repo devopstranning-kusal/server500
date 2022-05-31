@@ -18,6 +18,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/XLab-qOm-257/project100
-            azure-pipeline-name: 'devopstranning-kusal.server500
-'
+            azure-pipeline-name: 'devopstranning-kusal.server500'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
